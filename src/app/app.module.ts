@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { KtdGridModule } from '@katoid/angular-grid-layout';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DashboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    KtdGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
